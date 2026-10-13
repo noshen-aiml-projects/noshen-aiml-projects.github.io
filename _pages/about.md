@@ -37,7 +37,7 @@ Take a look at my [projects](#projects) below, my [resume](/cv/), and my [articl
   id="projects"
   style="margin-top: 3.5rem; padding-top: 2rem; border-top: 1px solid var(--global-divider-color); color: var(--global-theme-color); font-weight: 500"
 >
-  projects
+  Projects
 </h2>
 
 <div class="projects">
