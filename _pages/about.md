@@ -30,3 +30,18 @@ Before grad school I spent three years at **IBM** as a software engineer, automa
 **Interests:** LLMs and NLP, fine-tuning and model compression, evaluation and model reliability, fairness, and agentic workflows.
 
 Take a look at my [projects](/projects/), [CV](/cv/), and [articles](/blog/) — or reach out by email.
+
+<div style="clear: both"></div>
+
+<h2 class="mt-4">
+  <a href="{{ '/projects/' | relative_url }}" style="color: inherit">projects</a>
+</h2>
+
+<div class="projects">
+  <div class="row row-cols-1 row-cols-md-3">
+    {% assign sorted_projects = site.projects | sort: "importance" %}
+    {% for project in sorted_projects %}
+      {% include projects.liquid %}
+    {% endfor %}
+  </div>
+</div>
