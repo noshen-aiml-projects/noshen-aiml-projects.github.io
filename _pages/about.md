@@ -21,15 +21,21 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm an AI/ML engineer and a Master of Information & Data Science (MIDS) student at UC Berkeley. I work across the model lifecycle — framing the problem, building data pipelines, fine-tuning and evaluating models, and keeping them healthy once they're deployed.
+I am an AI/ML engineer completing my Master of Information and Data Science at UC Berkeley. I also hold a B.Sc. in Computer Science from Ontario Tech University.
 
-Currently I'm an **AI/ML Engineering Intern and Research Lead at Bytespace**, where I lead a research team running systematic ML experiments and build task-specific models with supervised fine-tuning, LoRA, quantization, and distillation, backed by custom evaluation frameworks. Before that, I was a Machine Learning Engineer with **WiCDS**, building an equity-aware scoring model for the Hayward Parks Department.
+Right now I am an AI/ML researcher at Bytespace, a startup building AI tooling. Day to day, I design experiments, fine-tune models and make them smaller and faster, and build evaluation frameworks that show whether a model actually works. One of my favorite projects is an NLP pipeline that searches more than a million Hugging Face models to find the best fit for a given use case.
 
-Before grad school I spent three years at **IBM** as a software engineer, automating deployments across client production environments with Ansible, Terraform, and Jenkins, and leading security-analytics work that resolved 60+ compliance issues. I did my B.Sc. in Computer Science at Ontario Tech University, where my honors thesis applied ML to anomaly detection on automotive CAN bus data.
+The work I care about most is using AI on problems both big and small. One day that might mean helping a cancer clinic figure out where AI fits into pathology and genomics. Another day it might mean helping a small business automate its outreach. Whatever the project, I look for the cleanest, simplest and most robust way to solve problems worth solving. My technical interests are fine-tuning and model efficiency, rigorous evaluation, NLP, and agentic systems that reliably get real work done.
 
-**Interests:** LLMs and NLP, fine-tuning and model compression, evaluation and model reliability, fairness, and agentic workflows.
+Building a good model is only half the job. Before Bytespace, I spent three years at IBM in DevOps and automation, and that taught me how to deploy, scale and maintain systems cleanly, so what I build keeps working long after launch.
 
-Take a look at my [projects](#projects) below, my [resume](/cv/), and my [articles](/blog/) — or reach out by email.
+At Berkeley, I am part of WiCDS (Women in Computing and Data Science). There I work alongside talented women in tech on projects with real community impact, like helping the City of Hayward prioritize park maintenance more fairly.
+
+Through all of it, teaching has been my constant. I started out tutoring neighbors and classmates. Later I was a teaching assistant at Ontario Tech and taught at reputable academies like Mathnasium and Hippocampus. Teaching is how I share my love of tech, and it keeps me learning, because explaining something well forces me to understand it deeply.
+
+If you’re working on a problem worth solving, want to collaborate on AI research, or just want to talk about teaching and tech, I’d love to hear from you.
+
+Reach out at [noshen@berkeley.edu](mailto:noshen@berkeley.edu) or connect with me on [LinkedIn](https://www.linkedin.com/in/noshen-habib).
 
 <div style="clear: both"></div>
 
