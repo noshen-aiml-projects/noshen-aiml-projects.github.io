@@ -1,5 +1,6 @@
 ---
 layout: cv
+published: false # hidden while the resume is being revised; set to true to republish
 permalink: /cv/
 title: Resume
 nav: true

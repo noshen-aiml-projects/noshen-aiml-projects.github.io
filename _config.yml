@@ -215,6 +215,7 @@ kramdown:
 # Includes & excludes
 include: ["_pages"]
 exclude:
+  - assets/rendercv/ # resume hidden while being revised; remove this line to republish the PDF
   - AGENTS.md
   - al-folio-upgrade-report.md
   - bin/
