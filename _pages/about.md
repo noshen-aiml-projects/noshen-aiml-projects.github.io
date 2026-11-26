@@ -54,3 +54,35 @@ Reach out at [noshen@berkeley.edu](mailto:noshen@berkeley.edu) or connect with m
     {% endfor %}
   </div>
 </div>
+
+<h2
+  id="articles"
+  style="margin-top: 3.5rem; padding-top: 2rem; border-top: 1px solid var(--global-divider-color); color: var(--global-theme-color); font-weight: 500"
+>
+  Articles
+</h2>
+
+<div class="articles">
+  {% for post in site.posts limit: 3 %}
+    <a href="{{ post.url | relative_url }}" style="text-decoration: none; color: inherit">
+      <div class="card hoverable mb-3">
+        <div class="card-body">
+          <h3 class="card-title" style="font-size: 1.25rem; margin-bottom: 0.4rem">{{ post.title }}</h3>
+          <p class="card-text" style="margin-bottom: 0.5rem">{{ post.description }}</p>
+          <p class="post-meta" style="margin-bottom: 0">
+            {{ post.date | date: '%B %-d, %Y' }}
+            {% if post.coming_soon %}
+              &nbsp;·&nbsp;
+              <span style="padding: 0.1rem 0.5rem; border: 1px solid var(--global-theme-color); border-radius: 999px; color: var(--global-theme-color); font-size: 0.8rem">
+                Coming soon
+              </span>
+            {% endif %}
+          </p>
+        </div>
+      </div>
+    </a>
+  {% endfor %}
+  <p style="text-align: right">
+    <a href="{{ '/blog/' | relative_url }}">All articles →</a>
+  </p>
+</div>
